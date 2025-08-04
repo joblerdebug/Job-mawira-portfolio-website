@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Mawira's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    
+    <!-- Background energy flow animation -->
+    <div class="energy-flow">
+        <svg viewBox="0 0 100 100" preserveAspectRatio="none">
+            <path class="flow-path" d="M0,50 Q25,10 50,50 T100,50" />
+            <circle class="energy-node" cx="0" cy="50" r="1.5" />
+        </svg>
+    </div>
+
+    <!-- Main website header with navigation -->
+    <header id="header">
+        <div class="container">
+            <nav>
+                <!-- Logo with animation -->
+                <a href="#" class="logo">
+                    <span class="logo-text">JM</span>
+                    <span class="logo-spark">⚡</span>
+                    <span class="logo-pulse"></span>
+                </a>
+                
+                <!-- Mobile menu toggle (hidden on desktop) -->
+                <input type="checkbox" id="menu-toggle" class="menu-toggle">
+                <label for="menu-toggle" class="hamburger">
+                    <span class="hamburger-line"></span>
+                </label>
+                
+                <!-- Main navigation links -->
+                <ul class="nav-links">
+                    <li><a href="#about" class="nav-link"><span>About</span></a></li>
+                    <li><a href="#projects" class="nav-link"><span>Projects</span></a></li>
+                    <li><a href="#systems" class="nav-link"><span>Systems</span></a></li>
+                    <li><a href="#contact" class="nav-link"><span>Contact</span></a></li>
+                    <li>
+                        <!-- Dark/light mode toggle -->
+                        <label class="theme-switch" aria-label="Dark mode toggle">
+                            <input type="checkbox" id="theme-toggle">
+                            <span class="slider"></span>
+                            <span class="stars"></span>
+                        </label>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero section -->
+    <section class="hero" id="home">
+        <div class="hero-grid">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line">Redesigning Energy</span>
+                    <span class="title-line">For <span class="title-africa">Africa</span></span>
+                </h1>
+                <p class="hero-subtitle">Thermovoltaic systems • Biogas solutions • AI optimization</p>
+                
+                <!-- Call-to-action buttons -->
+                <div class="hero-cta">
+                    <a href="#projects" class="cta-button">
+                        <span class="cta-text">View Innovations</span>
+                        <span class="cta-arrow">→</span>
+                        <span class="cta-pulse"></span>
+                    </a>
+                    <a href="#contact" class="cta-button cta-secondary">
+                        <span class="cta-text">Contact Me</span>
+                        <span class="cta-arrow">→</span>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Animated energy system graphic -->
+            <div class="hero-visual">
+                <div class="energy-system">
+                    <div class="system-core"></div>
+                    <div class="system-node node-1"></div>
+                    <div class="system-node node-2"></div>
+                    <div class="system-node node-3"></div>
+                    <div class="system-connection con-1"></div>
+                    <div class="system-connection con-2"></div>
+                    <div class="system-connection con-3"></div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Scroll hint for users -->
+        <div class="scroll-hint">
+            <span class="hint-text">Explore</span>
+            <div class="hint-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About section with profile and timeline -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="title-word">Meet the innovator</span>
+                </h2>
+                <div class="section-sparkle"></div>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <img src="profile.jpg" alt="Job Mawira" loading="lazy" width="700" height="750">
+                        <div class="image-highlight"></div>
+                        <div class="image-pattern"></div>
+                    </div>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-bio">
+                        <p>
+                            I am 19 year old passionate about revolutionizing Africa's energy infrastructure through first-principles tech, personally driven by engineering and sustainable design.
+                        </p>
+                        <p>
+                            As the founder of EFV Energy, I lead a team dedicated to developing advanced thermovoltaic systems and solutions that leverage local resources and cutting-edge AI and exciting technology.
+                        </p>
+                            I am skilled in
+                            <span>
+                                <a href="https://html.com/">html</a> 
+                            </span>
+                            <span>
+                                <a href="https://css.com/">css</a> 
+                            </span>
+                            <span>
+                                <a href="https://www.python.org/">python</a> 
+                            </span>
+                            <span>
+                                <a href="https://engineering.com/">electronics design (currently an electrical and electronics student engineer)</a> 
+                            </span>
+                            <br>
+                            <br>
+                            <P> MY ACHIEVEMENTS</P>
+                    </div>
+                    <!-- Career timeline -->
+                    <div class="achievement-timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h3>Founded EFV Energy</h3>
+                                <p class="timeline-date">2023 - Present</p>
+                                <p>Developing fire-based electricity generation systems for urban and rural applications intergrated with Tech.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h3>GreenLabs Fellowship</h3>
+                                <p class="timeline-date">2023 - Present</p>
+                                <p>Selected for Africa's premier sustainable energy accelerator program.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects showcase section -->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="title-word">My projects</span>
+                </h2>
+                <div class="section-sparkle"></div>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project card 1 -->
+                <div class="project-card">
+                    <input type="checkbox" id="project-1" class="project-toggle">
+                    <label for="project-1" class="project-label">
+                        <span class="project-hologram"></span>
+                        <span class="project-image">
+                            <img src="efv.jpg" alt="EFV Energy System" loading="lazy" width="550" height="420">
+                        </span>
+                        <span class="project-overlay">
+                            <em class="project-title"><strong><b>EFV CORE System</b></strong></em>
+                            <span class="project-subtitle">Waste-to-Energy Solution through machine learning</span>
+                            <span class="project-more">View Details +</span>
+                        </span>
+                    </label>
+                    
+                    <div class="project-details">
+                        <div class="detail-content">
+                            <h3>EFV Energy Core</h3>
+                            <p>A breakthrough thermovoltaic system converting organic waste into clean electricity through controlled combustion and advanced heat recovery.</p>
+                            
+                            <div class="project-specs">
+                                <div class="spec-item">
+                                    <span class="spec-value">85%</span>
+                                    <span class="spec-label">Efficiency</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-value">24/7</span>
+                                    <span class="spec-label">Operation</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-value">5kW</span>
+                                    <span class="spec-label">Output</span>
+                                </div>
+                            </div>
+                            
+                            <div class="project-tech">
+                                <span class="tech-tag">Thermovoltaics</span>
+                                <span class="tech-tag">Heat Recovery</span>
+                                <span class="tech-tag">AI Control</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project card 2 -->
+                <div class="project-card">
+                    <input type="checkbox" id="project-2" class="project-toggle">
+                    <label for="project-2" class="project-label">
+                        <span class="project-hologram"></span>
+                        <span class="project-image">
+                            <img src="fire.jpg" alt="Biogas System" width="550" height="420" loading="lazy">
+                        </span>
+                        <span class="project-overlay">
+                            <em class="project-title"><strong><b>BIOGAS Array</b></strong></em>
+                            <span class="project-subtitle">Organic Waste Conversion</span>
+                            <span class="project-more">View Details +</span>
+                        </span>
+                    </label>
+                    
+                    <div class="project-details">
+                        <div class="detail-content">
+                            <h3>Biogas Energy System</h3>
+                            <p>High-efficiency anaerobic digestion system that converts agricultural and human waste into usable biogas for cooking.</p>
+                            
+                            <div class="project-specs">
+                                <div class="spec-item">
+                                    <span class="spec-value">3x</span>
+                                    <span class="spec-label">More Efficient</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-value">60%</span>
+                                    <span class="spec-label">Methane Yield</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-value">Scalable</span>
+                                    <span class="spec-label">Design</span>
+                                </div>
+                            </div>
+                            
+                            <div class="project-tech">
+                                <span class="tech-tag">Anaerobic Digestion</span>
+                                <span class="tech-tag">Gas Purification</span>
+                                <span class="tech-tag">Waste Management</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project card 3 -->
+                <div class="project-card">
+                    <input type="checkbox" id="project-3" class="project-toggle">
+                    <label for="project-3" class="project-label">
+                        <span class="project-hologram"></span>
+                        <span class="project-image">
+                            <img src="ai.jpeg" alt="AI Control System" width="550" height="420" loading="lazy">
+                        </span>
+                        <span class="project-overlay">
+                            <em class="project-title"><strong><b>AI Optimizer</b></strong></em>
+                            <span class="project-subtitle">Smart Energy Management</span>
+                            <span class="project-more">View Details +</span>
+                        </span>
+                    </label>
+                    
+                    <div class="project-details">
+                        <div class="detail-content">
+                            <h3>Energy AI Controller</h3>
+                            <p>Machine learning system that optimizes energy production and distribution across hybrid renewable systems in real-time.</p>
+                            
+                            <div class="project-specs">
+                                <div class="spec-item">
+                                    <span class="spec-value">15%</span>
+                                    <span class="spec-label">Efficiency Gain</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-value">Predictive</span>
+                                    <span class="spec-label">Maintenance</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-value">Adaptive</span>
+                                    <span class="spec-label">Learning</span>
+                                </div>
+                            </div>
+                            
+                            <div class="project-tech">
+                                <span class="tech-tag">Machine Learning</span>
+                                <span class="tech-tag">Energy Forecasting</span>
+                                <span class="tech-tag">System Control</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Educational background information -->
+    <section class="section systems" id="systems">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="title-word">Educational Background</span>
+                </h2>
+                <div class="section-sparkle"></div>
+            </div>
+            <div class="tab-labels">
+                    <label class="tab-label">
+                        <span>2020-2023 secondary school utumishi academy  Grade B+</span>
+                        <span>2024 - present technical university of kenya (electrical and electronics engineering  degree)
+                        download full CV <a href="jobmawiracv.pdf" download >here</a>
+                        </span>
+                    </label>
+            </div>
+            <!-- sytem architectures   -->
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="title-word">More Interests</span>
+                </h2>
+                <div class="section-sparkle"></div>
+            </div>
+            <div class="systems-tabs">
+                
+                <div class="tab-labels">
+                    <label class="tab-label">Thermophotovoltaic systems</label>
+                    <label class="tab-label">Biogas systems </label>
+                    <label class="tab-label">Hybrid</label>
+                </div>
+                
+                <!-- Tab content panels -->
+                <div class="luxury-tab-system">
+                    <div class="luxury-tab-buttons">
+                        <a href="#thermovoltaic" class="luxury-tab-button">
+                            <img src="https://images.unsplash.com/photo-1613665813446-82a78c468a1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&h=50&q=80" alt="Thermovoltaic">
+                            <span>Thermovoltaic</span>
+                        </a>
+                        <a href="#biogas" class="luxury-tab-button">
+                            <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&h=50&q=80" alt="Biogas">
+                            <span>Biogas</span>
+                        </a>
+                        <a href="#hybrid" class="luxury-tab-button">
+                            <img src="https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&h=50&q=80" alt="Hybrid">
+                            <span>Hybrid</span>
+                        </a>
+                    </div>
+                    
+                    <div class="luxury-tab-panels">
+                        <div id="thermovoltaic" class="luxury-tab-panel">
+                            <div class="system-display">
+                                <div class="system-diagram">
+                                    <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=400&q=80" alt="Thermovoltaic System" class="system-image">
+                                </div>
+                                <div class="system-details">
+                                    <h3>High-Efficiency Thermovoltaic Array</h3>
+                                    <p>Our proprietary design achieves unprecedented energy conversion rates through multi-stage heat recovery and advanced photovoltaic materials.</p>
+                                    <ul class="system-features">
+                                        <li>Modular 5kW units</li>
+                                        <li>Integrated heat storage</li>
+                                        <li>AI-optimized combustion</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div id="biogas" class="luxury-tab-panel">
+                            <div class="system-display">
+                                <div class="system-diagram">
+                                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=400&q=80" alt="Biogas System" class="system-image">
+                                </div>
+                                <div class="system-details">
+                                    <h3>Advanced Biogas System</h3>
+                                    <p>High-yield anaerobic digestion system with integrated gas purification and smart monitoring for optimal methane production.</p>
+                                    <ul class="system-features">
+                                        <li>60% methane yield</li>
+                                        <li>Automated feeding system</li>
+                                        <li>Remote monitoring</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div id="hybrid" class="luxury-tab-panel">
+                            <div class="system-display">
+                                <div class="system-diagram">
+                                    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=400&q=80" alt="Hybrid System" class="system-image">
+                                </div>
+                                <div class="system-details">
+                                    <h3>Hybrid Energy System</h3>
+                                    <p>Integrated solution combining thermovoltaic and biogas technologies with smart energy management for continuous power generation.</p>
+                                    <ul class="system-features">
+                                        <li>24/7 energy production</li>
+                                        <li>Automated fuel switching</li>
+                                        <li>Grid-independent</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section with form -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="title-word">Collaborate</span>
+                    <span class="title-word">With Me</span>
+                </h2>
+                <div class="section-sparkle"></div>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3 class="info-title">Let's Build Africa's Energy Future</h3>
+                    <p class="info-text">I'm actively seeking partners, investors, and collaborators for large-scale energy projects across Africa.</p>
+                    
+                    <div class="info-details">
+                        <div class="detail-item">
+                            <span class="detail-icon">📍</span>
+                            <span class="detail-text">Nairobi, Kenya</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-icon">✉️</span>
+                            <a href="mailto:jobmawira5750@gmail.com" class="detail-text">jobmawira5750@gmail.com</a>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-icon">🌐</span>
+                            <a href="jobmawira5750@gmail.com" class="detail-text">efvenergy.africa</a>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <span class="link-icon">in</span>
+                        </a>
+                        <a href="#" class="social-link" aria-label="ResearchGate">
+                            <span class="link-icon">RG</span>
+                        </a>
+                        <a href="#" class="social-link" aria-label="GitHub">
+                            <span class="link-icon">{} </span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form class="message-form">
+                        <div class="form-group">
+                            <input type="text" id="name" required>
+                            <label for="name">Your Name</label>
+                            <div class="form-line"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="email" required>
+                            <label for="email">Email Address</label>
+                            <div class="form-line"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <select id="interest" required>
+                                <option value="" disabled selected>select option</option>
+                                <option value="investment">Investment Opportunity</option>
+                                <option value="collaboration">Technical Collaboration</option>
+                                <option value="consulting">Consulting Inquiry</option>
+                                <option value="media">Media Inquiry</option>
+                            </select>
+                            <label for="interest">Interest</label>
+                            <div class="form-line"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" required></textarea>
+                            <label for="message">Your Message</label>
+                            <div class="form-line"></div>
+                        </div>
+                        
+                        <button type="submit" class="form-submit">
+                            <span class="submit-text">Send Message</span>
+                            <span class="submit-arrow">→</span>
+                            <span class="submit-pulse"></span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Website footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-signature">
+                    <div class="signature-energy">
+                        <div class="energy-pulse"></div>
+                        <div class="energy-core"></div>
+                    </div>
+                    <div class="signature-text">
+                        <span class="signature-name">Job Mawira</span>
+                        <span class="signature-title">Energy Systems Engineer</span>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4 class="link-title">Navigation</h4>
+                        <a href="#about" class="footer-link">About</a>
+                        <a href="#projects" class="footer-link">Projects</a>
+                        <a href="#systems" class="footer-link">Systems</a>
+                        <a href="#contact" class="footer-link">Contact</a>
+                    </div>
+                    
+                    <div class="link-group">
+                        <h4 class="link-title">Connect</h4>
+                        <a href="#" class="footer-link">LinkedIn</a>
+                        <a href="#" class="footer-link">ResearchGate</a>
+                        <a href="#" class="footer-link">GitHub</a>
+                        <a href="#" class="footer-link">Twitter</a>
+                    </div>
+                    
+                    <div class="link-group">
+                        <h4 class="link-title">Resources</h4>
+                        <a href="#" class="footer-link">White Papers</a>
+                        <a href="#" class="footer-link">Case Studies</a>
+                        <a href="#" class="footer-link">Media Kit</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="copyright">© 2025 Job Mawira. All rights reserved.</p>
+                <p class="credit">Pure HTML/CSS - No JavaScript</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
