@@ -5,12 +5,13 @@ Job mawira's portfolio website
 
 ## Building Africa's next-gen energy infrastructure through:
 
-🔥 THERMOVOLTAIC SYSTEMS - Converting waste heat to electricity
-🌱 BIOGAS SOLUTIONS - 60% more efficient organic waste processing
+🔥 AI and software development skills
+🌱 BIOGAS SOLUTIONS - 60% more efficient organic waste processing solutions
 🤖 AI OPTIMIZATION - Machine learning for energy distribution
 
 # TECH STACK:
-- Pure HTML/CSS (Zero JavaScript)
+- Pure HTML/CSS
+- Python
 - CSS Grid/Flexbox layouts
 - SVG animations
 - Fully responsive design
